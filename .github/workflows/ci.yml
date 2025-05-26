@@ -15,3 +15,5 @@ jobs:
           jenkinsfile: Jenkinsfile
           pluginstxt: plugins.txt
           jcasc: jcasc.yml
+      - name: Whoami
+        run: whoami
